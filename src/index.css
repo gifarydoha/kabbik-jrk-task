@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-layout{
+    @apply max-w-[1512px] mx-auto;
+}
