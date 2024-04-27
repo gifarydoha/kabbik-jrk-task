@@ -34,12 +34,12 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="relative bg-white shadow">
+    <nav className="lg:px-[108px] relative bg-white shadow">
       <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           {/* logo */}
           <img className="w-auto h-6 sm:h-7" src={LogoIcon} alt="" />
-          <h2 className="lg:ml-2 uppercase font-medium text-xl">Kabbik</h2>
+          <h2 className="lg:ml-2 uppercase font-bold text-xl">Kabbik</h2>
 
           {/* mobile menu button */}
           <div className="flex lg:hidden">

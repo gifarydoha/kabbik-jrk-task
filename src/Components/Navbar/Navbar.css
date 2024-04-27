@@ -1,5 +1,5 @@
 .navigation-links{
-    @apply font-medium text-lg my-2 text-gray-700 transition-colors duration-300 transform  hover:text-[#2F6F59]  md:mx-4 md:my-0;
+    @apply font-medium text-xl my-2 text-gray-700 transition-colors duration-300 transform  hover:text-[#2F6F59]  md:mx-4 md:my-0;
 }
 .nav-cart{
     @apply relative transition-colors duration-300 transform; 
