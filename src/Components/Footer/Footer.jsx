@@ -24,7 +24,8 @@ const Footer = () => {
 
         <p>Contact Us</p>
       </div>
-      <p className="my-2 lg:my-3 lg:w-[1290px] border-white pb-5 border-t-[.5px] mx-auto"></p>
+      {/* border */}
+      <p className="my-2 lg:my-3 w-[393px] lg:w-[1290px] border-white pb-5 border-t-[.5px] mx-auto"></p>
       {/* store icon */}
       <div className="pb-16 flex justify-center items-center flex-col">
         <div className="flex justify-center gap-3 flex-col lg:flex-row mb-6">
