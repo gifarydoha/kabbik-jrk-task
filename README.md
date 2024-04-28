@@ -1,1 +1,1 @@
-#Live_Preview: https://github.com/gifarydoha/kabbik-jrk-task
+#Live_Preview: https://doha-jrk-task.netlify.app/
