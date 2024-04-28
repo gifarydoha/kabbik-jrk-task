@@ -11,7 +11,7 @@ const Navbar = () => {
   //   navigation links
   const navItems = (
     <>
-      <div className="flex flex-col md:flex-row md:mx-6">
+      <div className="flex flex-col items-center md:flex-row md:mx-6">
         <a className="navigation-links" href="#">
           Home
         </a>
@@ -21,12 +21,12 @@ const Navbar = () => {
         <a className="navigation-links" href="#">
           Services
         </a>
-        <a className="navigation-links" href="#">
+        <a className=" login-btn" href="#">
           Login
         </a>
       </div>
       <div className="flex justify-center md:block">
-        <a className="nav-cart" href="#">
+        <a className="nav-cart mt-4 lg:mt-0" href="#">
           <img src={cartIcon} alt="" />
         </a>
       </div>

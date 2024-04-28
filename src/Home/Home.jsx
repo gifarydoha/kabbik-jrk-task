@@ -14,6 +14,7 @@ import Popular from "../Components/Popular/Popular";
 import Furniture from "../Components/Furniture/Furniture";
 import Fit from "../Components/Fit/Fit";
 import Blog from "../Components/Blog/Blog";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Furniture />
       <Fit />
       <Blog />
+      <Footer />
     </main>
   );
 };
