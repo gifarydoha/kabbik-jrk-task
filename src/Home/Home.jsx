@@ -13,6 +13,7 @@ import Banner from "../Components/Banner/Banner";
 import Popular from "../Components/Popular/Popular";
 import Furniture from "../Components/Furniture/Furniture";
 import Fit from "../Components/Fit/Fit";
+import Blog from "../Components/Blog/Blog";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Popular />
       <Furniture />
       <Fit />
+      <Blog />
     </main>
   );
 };
