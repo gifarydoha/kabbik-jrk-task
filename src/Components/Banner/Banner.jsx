@@ -9,16 +9,16 @@ import { GoLinkExternal } from "react-icons/go";
 const Banner = () => {
   return (
     <section className="relative mb-14">
-      <div className=" section-padding pt-12 lg:pb-20 flex items-center flex-col lg:flex-row gap-4 lg:gap-8 bg-gradient-to-r from-gold-yellow-200 to-gold-yellow-300">
+      <div className="section-padding pt-12 lg:pb-20 flex items-center flex-col lg:flex-row gap-4 lg:gap-8 bg-gradient-to-r from-gold-yellow-200 to-gold-yellow-300">
         <div className="font-title">
-          <h1 className="text-7xl font-semibold">
+          <h1 className="text-5xl lg:text-7xl font-semibold">
             <span className="text-sea-green-900">We</span>{" "}
             <span className="text-sea-green-500">Provide High</span>
           </h1>
-          <h2 className="text-sea-green-900 font-semibold text-5xl pt-3 pb-8">
+          <h2 className="text-sea-green-900 font-semibold text-4xl lg:text-5xl pt-3 pb-8">
             Quality Furniture
           </h2>
-          <p className="max-w-[834px] text-[#001C13] text-[15px]">
+          <p className="max-w-[834px] text-[#001C13] text-[13px] lg:text-[15px]">
             Choose and buy from wide and largest sofa collection of Bangladesh.
             Regal, the most loved and selling furniture brand in Bangladesh,
             brought to you modern, ergonomic, budget friendly sofa. Choose among
