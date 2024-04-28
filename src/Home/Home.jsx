@@ -11,6 +11,7 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Banner from "../Components/Banner/Banner";
 import Popular from "../Components/Popular/Popular";
+import Furniture from "../Components/Furniture/Furniture";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Popular />
+      <Furniture />
     </main>
   );
 };
